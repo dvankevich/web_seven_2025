@@ -7,3 +7,26 @@
 FastAPI
 SQLAlchemy (SQLite)
 Pydantic
+
+
+project structure
+```
+src/
+ |- api
+    |- movie_api.py
+ |- config/
+    |- app_config.py
+ |- services/
+    |- movie_service.py
+ |- repositories/
+    |- movie_repository.py
+ |- schemas
+    |- movie.py
+ |- db/
+    |- base.py
+    |- session.py
+ |- models/
+    |- movie.py
+main.py
+pyproject.toml
+```
